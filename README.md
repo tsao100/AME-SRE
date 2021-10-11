@@ -23,3 +23,16 @@ To excute the task of finding authorization code, I have learned or tried:
   1. Oracle VM VirtualBox debugger.
 
 A live demo of the opertion: [Video](https://youtu.be/256guFYcyAA)
+
+# Hiew - SRE
+
+I install the iDOS 2 in my iPad mini 4. And discovered that Ctrl - F1 was occupied by the Keyboard mapper function, therefore, I try to trace the assembly code of Hiew. The procedure is:
+
+  1. Check if the file was packed: Yes, packed by Pklite Pro, which will be unexractable.
+  1. 
+
+
+# Ture Basic Free - SRE
+
+I learned the Ture Basic 2.01 in Taichung First Senior High School. During these years, I try to collect the Ture Basic interpreter for DOS  from internet. They are 1.0, 2.0, 2.01, 3.05, 3.05b.
+The version 3.05b was locked with a nag message for everytime execution and for the code lines more than 250 lines. Althrough I have the unlock version 3.05, I still would like to crack it for free from nag message and unlimited code lines.
