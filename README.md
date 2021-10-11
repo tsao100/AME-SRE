@@ -19,7 +19,7 @@ In the Oracle VM VirtualBox, I built a VM with:
 To excute the task of finding authorization code, I have learned or tried:
   1. x86 Assembly language with DOS and BIOS call.
   1. AutoCAD Developement System (ADS) in Metaware High C language.
-  1. IDA Pro.
+  1. IDA Pro and FLIRT, FLAIR.
   1. Oracle VM VirtualBox debugger.
 
 A live demo of the opertion: [Video](https://youtu.be/256guFYcyAA)
