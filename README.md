@@ -26,7 +26,7 @@ A live demo of the opertion: [Video](https://youtu.be/256guFYcyAA)
 
 # Hiew - SRE
 
-I install the iDOS 2 in my iPad mini 4. And discovered that Ctrl - F1 was occupied by the Keyboard mapper function, therefore, I try to trace the assembly code of Hiew. The procedure is:
+I install the iDOS 2 in my iPad mini 4. And discovered that Ctrl+F1 was occupied by the Keyboard mapper function which was the 16/32 bit togle hot key in HIEW, therefore, I try to trace the assembly code of Hiew 6.11 to change the Hot key as Shift+F1. The procedure is:
 
   1. Check if the file was packed: Yes, packed by Pklite Pro, which will be unexractable.
   1. 
