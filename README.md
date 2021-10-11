@@ -38,8 +38,13 @@ The procedure is:
   1. Check if the file was packed: Yes, packed by Pklite Pro, which will be unextractable.
   1. 
 
+A live demo of the opertion: [Video](https://youtu.be/256guFYcyAA)
+
 
 # Ture Basic Free - SRE
 
 I learned the Ture Basic 2.01 in Taichung First Senior High School. During these years, I try to collect the Ture Basic interpreter for DOS  from internet. They are 1.0, 2.0, 2.01, 3.05, 3.05b.
 The version 3.05b was locked with a nag message for everytime execution and for the code lines more than 250 lines. Althrough I have the unlock version 3.05, I still would like to crack it for free from nag message and unlimited code lines.
+
+A live demo of the opertion: [Video](https://youtu.be/256guFYcyAA)
+
