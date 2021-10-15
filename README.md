@@ -22,6 +22,9 @@ To excute the task of finding authorization code, I have learned or tried:
   1. IDA Pro and FLIRT, FLAIR.
   1. Oracle VM VirtualBox debugger.
 
+Collect the information:
+When the Model menu in AutoCAD R12 is triggerred with "Solbox", for example, the authorization code will be checked. User will be asked for a valid authorization code, if it is not authorized yet. Such program flow, in ADS, will call the ads_getstring function. For the AME authorization code found by google search, it is formed by 8 HEX number, "AutoCAD R12 for Windows, S/N: 117-10086770, AME Authorization code: 70FEE2FD". To convert the Hex string to Hex number the function sscanf with format string "%lx" will be called. AutoCAD R12 is 32bit code by using the 386 DOS extender. To debug the AME.exp in VM/DOSBox in DOS environment is very diffcult, due to the memory or not a real computer, I am not sure. I tried the dedebug, 386debug watcom debug and Oracle VM VirtualBox debugger, Oracle VM VirtualBox debugger is the ideal one can meet the SRE opertion. By IDA pro, to located and figure out what's going on when the in invalid authorization code is entered. The assembly code for calculate the authorization code is also found.
+
 A live demo of the opertion: [Video](https://youtu.be/256guFYcyAA)
 
 # Hiew - SRE
