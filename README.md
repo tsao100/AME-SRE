@@ -39,9 +39,9 @@ The procedure is:
   1. Due to the file is unextractable, there would be no automatic unpacker, use TR to manually unpack, see the live demo below for detail.
   1. Use TR to trace the OP code to find the very instruction control the hot key.
   1. From the trial, the break point can be set after the keyboard interrupt int 21h ah=08.
-  1. The int 21h will be called two times for each hot key pressed, therefore set new break point in the next instruction of int 21h: bp 9b1 al>53.
+  1. The int 21h will be called two times for each hot key pressed, therefore set new break point in the next instruction of int 21h: "bp 9b1 al>53" for example.
   1. When Ctrl+F1/Shift+F1 pressed Hiew breaked at 9b1, trace until the jump table. 
-  1. Find the loaction of the jmp destination adress, change it to the adress of Ctrl+F1.
+  1. Find the loaction of the jmp destination adress, change it to the address of Ctrl+F1.
 
 A live demo of the opertion: [Video](https://youtu.be/256guFYcyAA)
 
@@ -55,8 +55,10 @@ The required softwares or tools as listed below:
 1. iDOS 2 for iPad or DOSBox in PC.
 1. TR by Liu Taotao- I use the version 2.52.
 1. Hacker's view HIEW.
+1. IDA Pro.
 
-For the nag message for everytime execution, use TR to tracea and IDA pro the change the function name meaningful/readable. Then try to think about how to change the opcode to by pass the nag message. Due the call ax, jump table everywhere in the exe file, it is very hard to understand the program flow, I doubt the exe file was intention to obfuscated, fianlly, I decide to change the opcode for one time execute and then recover it to by pass a key press of nag message.
+For the nag message for everytime execution, use TR to trace and IDA pro to change the function name meaningful/readable. Then try to think about how to change the opcode to by pass the nag message. Due the call ax, jump table everywhere in the exe file, it is very hard to understand the program flow, I thought the exe file was intention to obfuscated, fianlly, I decide to change the opcode, which will receive a Enter key, for one time execution and then recover it to by pass a Enter key press of the nag message.
+For the unlimited code lines, I use the TR LOGS technique to recored the execution CS:IP flow after the SAVE command. First I make a 250 lines code to save and get a successful execution CS:IP flow. Second I add one more line, 251 lines in total, to save and get a fail execution CS:IP flow. Thrid, I compare those two LOGS file, then discovered there is a number "FA 00" saved in the exe file which will limit the code lines. Fourth, change the "FA 00" to "FF 7F" to get 32767 lines to unlocked the 250 code lines limitation.
 
 A live demo of the opertion: [Video](https://youtu.be/256guFYcyAA)
 
