@@ -27,13 +27,13 @@ When the Model menu in AutoCAD R12 is triggerred with "Solbox", for example, the
 
 Since the calculation of the authorization code is revealed, I try to decompiled it with Ghidra, then write the keygen in C language, failed due to I am not familiar with the asm and C relationship. Then I try to write it in assembly language, assemble and link with Phar lap DOS extender 4.1, and successfully build the keygen executable. In order to build independent executable from run386.exe, I check the R12 acad.exe and discover its composition is "16bitEXE + 32bitEXP". Fortunately, the trial for link my keygen.exp with the 16bitEXE get success.
 
-Before discover the disambled code in IDA pro, it's better to recognize the disambled code function name by FLIRT. And before apply FLIRT, the linked library of AME.exp needs to be prepared by using flair, I found flair 7.0 in the downloaded IDA pro 7.0 with readme file to tell me how to use flair. In the installed folder of AutoCADR12\ADS\DOCS, there are text files to tell me the ADS, .exp can be done with the MSC, High C, Watcom C, etc. I tried the ADS.lib library file fisrt and fortunately get succeed. And, of course, ADS.lib should be linked with metaware High C. Flair is not so friendly with the library files of ADS.lib and High C, therefore I tried to extract obj files from the lib file and then to deal obj files with flair.
+Before discover the disambled code in IDA pro, it's better to recognize the disambled code function name by FLIRT. And before apply FLIRT, the linked library of AME.exp needs to be prepared by using flair, I found flair 7.0 in the downloaded IDA pro 7.0 with readme file to tell me how to use flair. In the installed folder of AutoCADR12\ADS\DOCS, there are text files to tell me the ADS, .exp can be done with the MSC, High C, Watcom C, etc. I tried the ADS.lib library file fisrt and fortunately get succeed. And, of course, ADS.lib should be linked with metaware High C. From makesamp.bat, I see small\hcc.lib is checked, then I know that hcc.lib is also a lib file used while linking. Flair is not so friendly with the library files of ADS.lib and High C, therefore I tried to extract obj files from the lib file and then to deal obj files with flair.
 
 A live demo of the opertion: [Video](https://youtu.be/256guFYcyAA)
 
 # Hiew - SRE
 
-I install the iDOS 2 in my iPad mini 4. And discovered that Ctrl+F1 was occupied by the Keyboard mapper function which was the 16/32 bit togle hot key in HIEW, therefore, I try to trace the assembly code of Hiew 6.11 to change the Hot key as Shift+F1. 
+I install the iDOS 2 in my iPad mini 4. And discovered that Ctrl+F1 was occupied by the Keyboard mapper function which was the 16/32 bit toggle hot key in HIEW, therefore, I try to trace the assembly code of Hiew 6.11 to change the Hot key as Shift+F1. 
 
 First of all, the required softwares or tools as listed below:
 1. iDOS 2 for iPad or DOSBox in PC.
