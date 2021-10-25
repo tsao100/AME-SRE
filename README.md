@@ -29,7 +29,7 @@ Since the calculation of the authorization code is revealed, I try to decompiled
 
 Before discover the disambled code in IDA pro, it's better to recognize the disambled code function name by FLIRT. And before apply FLIRT, the linked library of AME.exp needs to be prepared by using flair, I found flair 7.0 in the downloaded IDA pro 7.0 with readme file to tell me how to use flair. In the installed folder of AutoCADR12\ADS\DOCS, there are text files to tell me the ADS, .exp can be done with the MSC, High C, Watcom C, etc. I tried the ADS.lib library file fisrt and fortunately get succeed. And, of course, ADS.lib should be linked with metaware High C. From makesamp.bat, I see small\hcc.lib is checked, then I know that hcc.lib is also a lib file used while linking. Flair is not so friendly with the library files of ADS.lib and High C, therefore I tried to extract obj files from the lib file and then to deal obj files with flair.
 
-A live demo of the opertion: [Video](https://youtu.be/256guFYcyAA)
+A live demo of the opertion: [Video](https://youtu.be/pMIo7gBMCk8)
 
 # Hiew - SRE
 
