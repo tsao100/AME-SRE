@@ -50,7 +50,7 @@ The procedure is:
   1. When Ctrl+F1/Shift+F1 pressed Hiew breaked at 9b1, trace until the jump table. 
   1. Find the loaction of the jmp destination adress, change it to the address of Ctrl+F1.
 
-A live demo of the opertion: [Video](https://youtu.be/256guFYcyAA)
+A live demo of the opertion: [Video](https://youtu.be/7NcU4TjV4as)
 
 
 # Ture Basic Free - SRE
