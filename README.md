@@ -56,7 +56,7 @@ A live demo of the opertion: [Video](https://youtu.be/7NcU4TjV4as)
 # Ture Basic Free - SRE
 
 I learned the Ture Basic 2.01 in Taichung First Senior High School. During these years, I try to collect the Ture Basic interpreter for DOS  from internet. They are 1.0, 2.0, 2.01, 3.05, 3.05b.
-The version 3.05b was locked with a nag message for everytime execution and for the code lines more than 250 lines. Althrough I have the unlock version 3.05, I still would like to crack it for free from nag message and unlimited code lines.
+The version 3.05b was locked with a nag message for everytime execution and for saving the code lines more than 250 lines. Althrough I have the unlock version 3.05, I still would like to crack it for free from nag message and unlimited code lines.
 
 The required softwares or tools as listed below:
 1. iDOS 2 for iPad or DOSBox in PC.
@@ -67,5 +67,5 @@ The required softwares or tools as listed below:
 For the nag message for everytime execution, use TR to trace and IDA pro to change the function name meaningful/readable. Then try to think about how to change the opcode to by pass the nag message. Due the call ax, jump table everywhere in the exe file, it is very hard to understand the program flow, I thought the exe file was intention to obfuscated, fianlly, I decide to change the opcode, which will receive a Enter key, for one time execution and then recover it to by pass a Enter key press of the nag message.
 For the unlimited code lines, I use the TR LOGS technique to recored the execution CS:IP flow after the SAVE command. First I make a 250 lines code to save and get a successful execution CS:IP flow. Second I add one more line, 251 lines in total, to save and get a fail execution CS:IP flow. Thrid, I compare those two LOGS file, then discovered there is a number "FA 00" saved in the exe file which will limit the code lines. Fourth, change the "FA 00" to "FF 7F" to get 32767 lines to unlocked the 250 code lines limitation.
 
-A live demo of the opertion: [Video](https://youtu.be/256guFYcyAA)
+A live demo of the opertion: [Video](https://youtu.be/uxUpQkW4WmI)
 
