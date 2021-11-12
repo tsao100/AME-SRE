@@ -76,7 +76,7 @@ The English descriptions above are Chinese Translation as below:-
 
 下面提到的操作所需的所有檔案都已壓縮傳上來以供參考。
 
-#AME-SRE
+# AME-逆向工程
 
 一切從尋找授權碼的旅程開始
 通過閱讀“Kris Kaspersky Uncovered Uncovered (ed) ISBN:1931769222”，我開始發掘 AME 2.1 for AutoCAD Release 12 中的 ame.exp 代碼。
@@ -109,7 +109,7 @@ The English descriptions above are Chinese Translation as below:-
 
 該操作的演示：[視頻](https://youtu.be/pMIo7gBMCk8)
 
-# Hiew - SRE
+# Hiew - 逆向工程
 
 我在 iPad mini 4 中安裝了 iDOS 2。發現 Ctrl+F1 被鍵盤映射器功能佔用，該功能是 HIEW 中的 16/32 位切換熱鍵，因此，我嘗試追踪 Hiew 6.11 的彙編代碼為將熱鍵更改為 Shift+F1。
 
@@ -131,7 +131,7 @@ The English descriptions above are Chinese Translation as below:-
 該操作的演示：[視頻](https://youtu.be/7NcU4TjV4as)
 
 
-# True Basic Free - SRE
+# True Basic Free - 逆向工程
 
 我在台中第一中學學了True Basic 2.01。這些年來，我試圖從互聯網上收集 DOS 的 Ture Basic 解釋器。它們版本有 1.0、2.0、2.03、3.05b。
 版本 3.05b 被鎖定，每次執行時都會出現一條嘮叨消息，並限制不能保存超過 250 行的代碼行。雖然我有 3.05b 的解鎖版本，但我仍然想破解嘮叨消息和並能有無限代碼行。
