@@ -2,7 +2,7 @@ All required files for the operation mentioned below are zipped and upload for r
 
 # AME-SRE
 
-Every thing started form the trip to find the authorization code
+Every thing started form the trip to find the authorization code.
 By reading of "Hacker Disassembling Uncovered by Kris Kaspersky (ed) ISBN:1931769222", I start to discover the code of ame.exp in AME 2.1 for AutoCAD Release 12.
 
 First of all, the required softwares or tools as listed below:
@@ -78,7 +78,7 @@ The English descriptions above are Chinese Translation as below:-
 
 # AME-逆向工程
 
-一切從尋找授權碼的旅程開始
+一切從尋找授權碼的旅程開始。
 通過閱讀“Kris Kaspersky Uncovered Uncovered (ed) ISBN:1931769222”，我開始發掘 AME 2.1 for AutoCAD Release 12 中的 ame.exp 代碼。
 
 首先，需要的軟體或工具如下：
